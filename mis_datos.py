@@ -1,5 +1,5 @@
 nombre = "Mónica Florentin"
-edad = "25"
+edad = "24"
 curso = "Programación"
 
 print("Nombre:", nombre)
