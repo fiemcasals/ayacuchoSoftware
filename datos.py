@@ -1,3 +1,3 @@
-name = "gonzalo cabrera"
+nombre = "gonzalo"
 apellido = "cabrera"
 edad = 35
