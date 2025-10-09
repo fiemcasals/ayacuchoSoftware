@@ -11,9 +11,9 @@
 
 #vamos a poner un ejemplo
 
-name = "juan"
-age = 17 #entero #cada tipo de dato tiene operaciones propias #cada tipo de dato ocupa un espacio en memoria.
-height = 1.75 #float
+#name = "juan"
+#age = 17 #entero #cada tipo de dato tiene operaciones propias #cada tipo de dato ocupa un espacio en memoria.
+# height = 1.75 #float
 
 #vamos a imprimir estos datos.
 
@@ -35,9 +35,9 @@ height = 1.75 #float
 
 #datos para trabajar
 
-Nombre = "Maria Belen"
-Edad = 17
-Estudiante = "Si"
+# Nombre = "Maria Belen"
+# Edad = 17
+# Estudiante = "Si"
 
 # print(Nombre)
 # print(Edad)
@@ -89,28 +89,28 @@ Estudiante = "Si"
 #     print(f"el valor de k es {k}")
 
 #vamos a ver lo que es una lista
-# lista = [1,2,3,4,5,6]
+#lista = [1,2,3,4,5,6]
 
 # for elemento in lista:
 #     print(f"el elemento es {elemento}")
 
 #vamos a declarar  una lista con string
-# lista_nombres = ["juan", "pedro", "maria", "ana"]
+ #lista_nombres = ["juan", "pedro", "maria", "ana"]
 # #imprimo los nombres de la lista
 # for nombre in lista_nombres:
 #     print(f"el nombre es {nombre}")
 
 #vamos a pedir nombres con un input y lo guardamos en una lista con append
-lista_nombres = []
+ #lista_nombres = []
 
 #vamos a generar una estructura que pida nombres de manera repetitiva hasta alcanzar 3 registros
-for i in range(3):
-    nombre = input(f"Ingrese el nombre {i+1}: ")
-    lista_nombres.append(nombre)
+# for i in range(3):
+#nombre = input(f"Ingrese el nombre {i+1}: ") #que tipo de dato guarda -> string, para castearlo usamos int() -> numero = int(input("ingrese un numero"))
+#lista_nombres.append(nombre)
 
-print("Los nombres ingresados son:")
-for nombre in lista_nombres:
-    print(f"- {nombre}")
+# print("Los nombres ingresados son:")
+# for nombre in lista_nombres:
+#     print(f"- {nombre}")
 
 #print(lista_nombres)
 
@@ -119,19 +119,35 @@ for nombre in lista_nombres:
 # nombre_azar = random.choice(lista_nombres)
 # print(f"El nombre seleccionado al azar es: {nombre_azar}")
 
-# #el vecto tiene la particularidad de que se puede indexar
+#el vecto tiene la particularidad de que se puede indexar
 # lista_nombres[0] #primer elemento
 
 #ahora voy a imprimir usando el indice
-for i in range(3):
-    print(f"el nombre en la posicion {i} es {lista_nombres[i]}")
+# for i in range(3):
+#     print(f"el nombre en la posicion {i} es {lista_nombres[i]}")#-> random.randint(3)
 
 
 #explicar len. sirve para saber cuantos elementos tiene un arreglo
-print(f"la lista tiene {len(lista_nombres)} elementos")
+# print(f"la lista tiene {len(lista_nombres)} elementos")
 
 
-while len(lista_nombres) < 5:
-    nombre = input(f"Ingrese el nombres {len(lista_nombres)+1}: ")
-    lista_nombres.append(nombre)
-print(f"la lista quedo asi: {lista_nombres}")
+# while len(lista_nombres) < 5:
+#     nombre = input(f"Ingrese el nombres {len(lista_nombres)+1}: ")
+#     lista_nombres.append(nombre)
+# print(f"la lista quedo asi: {lista_nombres}")
+
+#vamos a imprimir una lista de nombre con for, y len para saber cual es la condicion de corte
+#yo tengo una lista de nombres
+lista_nombres2 = ["juan", "pedro", "maria", "ana"]
+
+#genero un for para recorrer e imprimir la lista 
+for i in range(3, -1, -1):
+    print(lista_nombres2[i])
+
+# print("\ncambiamos el metodo\n")
+# for nombre in lista_nombres2:
+#     print(nombre)
+
+
+#vamos a hacer una lista de supermercado
+
