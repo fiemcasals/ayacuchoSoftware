@@ -2,7 +2,7 @@ nombre = "Jeremías"
 pais = "Argentina"
 ciudad = "Buenos Aires"
 año = 2025
-edad = 22
+edad = 25
 
 print("=== Mi Información ===")
 print("Nombre:", nombre)
