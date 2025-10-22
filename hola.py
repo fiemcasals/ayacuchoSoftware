@@ -1,5 +1,3 @@
-# Datos personales en Python
-
 nombre = "Jeremías"
 pais = "Argentina"
 ciudad = "Buenos Aires"
