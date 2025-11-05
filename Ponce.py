@@ -7,3 +7,4 @@ print(f"Nombre: {Nombre}")
 print(f"Apellido: {Apellido}")
 print(f"Edad: {Edad}")
 print(f"Email: {Email}")
+
